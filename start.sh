@@ -1,10 +1,5 @@
 #!/bin/bash
-
-REPOSITORY="Arts-of-coding/xxxx"
-ACCESS_TOKEN="xxxx"
-
 echo "REPO ${REPOSITORY}"
-echo "ACCESS_TOKEN ${ACCESS_TOKEN}"
 
 #REG_TOKEN=$(curl -X POST -H "Authorization: token ${ACCESS_TOKEN}" -H "Accept: application/vnd.github+json" https://api.github.com/repos/${REPOSITORY}/actions/runners/registration-token | jq .token --raw-output)
 
